@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+
+		<style type="text/css">
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+        html {
+            font-family: 'Roboto', Arial;
+        }
+        body {
+            margin: 0;
+        }
+
+
+        h1 {
+            font-size: 50pt;
+            color: #191970;
+        }
+
+    
+    </style>
+
+	</head>
+	<body>
+
+		<header>
+			<h1>Pessoas</h1>
+		</header>
+
+		<div>
+			<ul>
+				<a href="./index.html">Inicio &emsp;</a>
+	            <a href="./pessoas.html">Pessoas &emsp;</a>
+	            <a href="./estados.html">Estados &emsp;</a>
+	            <a href="./cidades.html">Cidades &emsp;</a>
+	            <a href="./produtos.html">Produtos &emsp;</a>
+	            <a href="./perfil.html">Perfil &emsp;</a>
+	            <a href="./relatorio.html">Relatório &emsp;</a>
+	            <a href="#">Sair</a>
+			</ul>
+		</div>
+
+		<hr>
+
+		<div>
+			<p>Cadastro:</p>
+		</div>
+
+		<div>
+			<form method="get" action="cadastrar.php">
+				<div>
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+				</div><br>
+				<div>
+					<label for="usuario">Usuário</label>
+					<input type="text" name="usuario" id="usuario" placeholder="Digete seu Usuario">
+				</div><br>
+				<div>
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu email">
+				</div><br>
+				<div>
+					<label for="datanasc">Data de nascimento</label>
+					<input type="date" name="data" id="data" placeholder="Digite seua data de nascimento">
+				</div><br>
+				<div>
+					<label>Gênero</label>
+					<div>
+						<input type="radio" name="genero" id="masculino" value="M">
+						<label for="masculino">Masculino</label>
+						<input type="radio" name="genero" id="feminino" value="F">
+						<label for="feminino">Feminino</label>
+					</div>
+				</div><br>
+				<div>
+					<div>
+						<input type="submit" name="enviar" value="Enviar">
+					</div>
+					<div><br>
+						<input type="reset" name="limpar" value="Limpar">
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<footer></footer>
+
+	</body>
+</html>
